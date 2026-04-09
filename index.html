@@ -3,162 +3,145 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Md Rifath Ahamed — Portfolio</title>
-  <meta name="description" content="Ecologist, visual storyteller, and content strategist based in Helsinki. MSc student at the University of Helsinki.">
-  <meta property="og:title" content="Md Rifath Ahamed — Portfolio">
-  <meta property="og:description" content="Science meets storytelling.">
+  <title>Md Rifath Ahamed — Science Communicator & Content Strategist</title>
+  <meta name="description" content="Science communicator, visual storyteller, and content strategist based in Helsinki. Specializing in student engagement, social media management, and science communications.">
+  <meta property="og:title" content="Md Rifath Ahamed — Content Strategy & Science Comms">
+  <meta property="og:description" content="Translating complex academic programs into engaging student communities through strategic content creation.">
   <link rel="stylesheet" href="css/style.css">
-  <!-- Load content config FIRST, then app -->
   <script src="js/content.js"></script>
 </head>
 <body>
 
-<!-- ── NAV ───────────────────────────────────────── -->
 <nav>
   <a href="#" class="nav-logo">Rifath</a>
   <ul class="nav-links">
     <li><a href="#about">About</a></li>
-    <li><a href="#portfolio">Portfolio</a></li>
-    <li><a href="#research">Research</a></li>
+    <li><a href="#portfolio">Content Portfolio</a></li>
+    <li><a href="#research">Academic Background</a></li>
     <li><a href="#experience">Experience</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
 </nav>
 
-<!-- ── HERO ───────────────────────────────────────── -->
 <div class="hero">
   <div class="hero-text">
-    <div class="hero-badge fade-up d1">Helsinki · MSc Ecology & Evolutionary Biology</div>
+    <div class="hero-badge fade-up d1">Helsinki · MSc Student & Digital Communicator</div>
 
-    <h1 class="fade-up d2" id="hero-h1"><!-- filled by JS --></h1>
+    <h1 class="fade-up d2" id="hero-h1">Building student communities through <em>visual storytelling.</em></h1>
 
-    <p class="hero-tagline fade-up d3" id="hero-tagline"><!-- filled by JS --></p>
+    <p class="hero-tagline fade-up d3" id="hero-tagline">I bridge the gap between academic research and student engagement by transforming complex program details into compelling digital content.</p>
 
-    <p class="hero-desc fade-up d4" id="hero-desc"><!-- filled by JS --></p>
+    <p class="hero-desc fade-up d4" id="hero-desc">As an international MSc student at the University of Helsinki with nearly a decade of experience in content creation, I specialize in social media management, student communications, and community building for multidisciplinary sciences.</p>
 
     <div class="hero-actions fade-up d5">
-      <a href="#portfolio" class="btn-warm">View my work</a>
+      <a href="#portfolio" class="btn-warm">View content strategies</a>
       <a id="hero-drive-btn" href="#" class="btn-outline" style="display:none" target="_blank">Full portfolio ↗</a>
     </div>
   </div>
 
   <div class="hero-visual fade-up d3">
     <div class="photo-wrap">
-      <div class="photo-frame" id="photo-content"><!-- filled by JS --></div>
+      <div class="photo-frame" id="photo-content">
+        </div>
 
-      <!-- floating badges -->
       <div class="photo-badge">
-        <div class="photo-badge-icon">📷</div>
+        <div class="photo-badge-icon">📱</div>
         <div class="photo-badge-text">
           <span class="photo-badge-num" id="badge1-num">9+</span>
-          <span class="photo-badge-label" id="badge1-label">Years in photography</span>
+          <span class="photo-badge-label" id="badge1-label">Years content creation</span>
         </div>
       </div>
 
       <div class="photo-badge-2">
-        <div class="b2-num" id="badge2-num">3</div>
-        <div class="b2-label" id="badge2-label">Clients</div>
+        <div class="b2-num" id="badge2-num">Expert</div>
+        <div class="b2-label" id="badge2-label">Social Media</div>
       </div>
     </div>
   </div>
 </div>
 
-<!-- ── ABOUT ──────────────────────────────────────── -->
 <section id="about" class="section">
   <div class="section-eyebrow">
     <div class="eyebrow-line"></div>
     <div class="eyebrow-text">About me</div>
   </div>
-  <h2 class="section-title reveal">Behind the lens <em>&amp; the data.</em></h2>
+  <h2 class="section-title reveal">The science of <em>engagement.</em></h2>
 
   <div class="about-grid">
-    <div class="about-paragraphs reveal" id="about-paragraphs"><!-- filled by JS --></div>
-    <div id="skills-wrap"><!-- filled by JS --></div>
+    <div class="about-paragraphs reveal" id="about-paragraphs">
+      <p>My journey didn't start in a marketing boardroom; it started behind a lens and in the laboratory. As an Evolutionary Biologist in training, I quickly realized that the most groundbreaking programs fail if they cannot communicate their value to the people who matter most: the students.</p>
+      
+      <p>Over the last 9 years, I have honed my skills as a visual storyteller and content strategist. Now, navigating my own path as an international MSc student at the University of Helsinki, I intimately understand the challenges, questions, and opportunities new students face when arriving at the Faculty of Agriculture and Forestry.</p>
+
+      <p>Whether it is planning impactful website news, managing active social media channels, or organizing group-building activities for multidisciplinary cohorts, my goal is to leverage my content creation expertise to make the student journey seamless, inclusive, and inspiring.</p>
+    </div>
+    <div id="skills-wrap">
+      </div>
   </div>
 </section>
 
-<!-- ── PORTFOLIO ──────────────────────────────────── -->
 <div id="portfolio" class="section-alt">
   <div class="section">
     <div class="section-eyebrow">
       <div class="eyebrow-line"></div>
-      <div class="eyebrow-text">Visual portfolio</div>
+      <div class="eyebrow-text">Content Portfolio</div>
     </div>
-    <h2 class="section-title reveal">Work that <em>speaks.</em></h2>
-
-    <!-- HOW TO ADD WORK — read this comment:
-    =============================================
-    To add photos/videos/links, open js/content.js
-    and find the "portfolio" array. Add items like:
-
-    PHOTO:
-    { type:"photo", title:"My Shot", category:"photography", src:"images/myshot.jpg" }
-
-    VIDEO (YouTube/Vimeo link):
-    { type:"video", title:"My Reel", category:"video", src:"images/thumb.jpg", videoUrl:"https://youtube.com/watch?v=..." }
-
-    GOOGLE DRIVE FOLDER:
-    { type:"drive", title:"Social Media Work", category:"social", driveLink:"https://drive.google.com/..." }
-
-    PLACEHOLDER (shows until you add real content):
-    { type:"placeholder", title:"Coming Soon", category:"photography", hint:"Add your image here" }
-
-    Then drop your image files in the /images/ folder.
-    ============================================= -->
+    <h2 class="section-title reveal">Campaigns that <em>connect.</em></h2>
 
     <div class="portfolio-filter">
       <button class="filter-btn active" data-cat="all">All work</button>
-      <button class="filter-btn" data-cat="photography">Photography</button>
-      <button class="filter-btn" data-cat="video">Video</button>
-      <button class="filter-btn" data-cat="social">Social media</button>
-      <button class="filter-btn" data-cat="science">Science comms</button>
+      <button class="filter-btn" data-cat="social">Social Media</button>
+      <button class="filter-btn" data-cat="science">Student Comms</button>
+      <button class="filter-btn" data-cat="video">Video Marketing</button>
+      <button class="filter-btn" data-cat="photography">Visuals</button>
     </div>
 
-    <div class="portfolio-grid" id="portfolio-grid"><!-- filled by JS --></div>
+    <div class="portfolio-grid" id="portfolio-grid"></div>
 
     <div class="drive-cta" id="drive-cta" style="display:none">
       <div class="drive-cta-text">
         <h3>Browse the full archive</h3>
-        <p>Photography, video projects, and social content — all in one place.</p>
+        <p>Digital campaigns, student life photography, and social content — all in one place.</p>
       </div>
       <a href="#" class="btn-warm" target="_blank">Open Google Drive ↗</a>
     </div>
   </div>
 </div>
 
-<!-- ── RESEARCH ───────────────────────────────────── -->
 <section id="research" class="section">
   <div class="section-eyebrow">
     <div class="eyebrow-line"></div>
-    <div class="eyebrow-text">Research</div>
+    <div class="eyebrow-text">Academic Alignment</div>
   </div>
-  <h2 class="section-title reveal">Science in <em>progress.</em></h2>
+  <h2 class="section-title reveal">Rooted in <em>sustainability.</em></h2>
+  
+  <p class="reveal" style="max-width: 800px; margin-bottom: 2rem; color: var(--text-light);">
+    My academic foundation in Ecology and Evolutionary Biology provides me with the exact technical vocabulary and contextual understanding required to market the Master’s Programme in Technologies for Sustainable Use of Renewable Resources. I don't just create content; I understand the science behind it.
+  </p>
 
-  <div class="research-grid" id="research-grid"><!-- filled by JS --></div>
+  <div class="research-grid" id="research-grid"></div>
 
   <div style="margin-top:2rem;">
     <div class="section-eyebrow" style="margin-bottom:1rem;">
       <div class="eyebrow-line"></div>
       <div class="eyebrow-text">Honours & Awards</div>
     </div>
-    <div class="awards-row" id="awards-rows"><!-- filled by JS --></div>
+    <div class="awards-row" id="awards-rows"></div>
   </div>
 </section>
 
-<!-- ── EXPERIENCE ─────────────────────────────────── -->
 <div id="experience" class="section-alt">
   <div class="section">
     <div class="section-eyebrow">
       <div class="eyebrow-line"></div>
       <div class="eyebrow-text">Experience</div>
     </div>
-    <h2 class="section-title reveal">Where I've <em>been.</em></h2>
+    <h2 class="section-title reveal">Professional <em>trajectory.</em></h2>
 
-    <div class="exp-grid" id="exp-grid"><!-- filled by JS --></div>
+    <div class="exp-grid" id="exp-grid"></div>
   </div>
 </div>
 
-<!-- ── CONTACT ────────────────────────────────────── -->
 <section id="contact" class="section">
   <div class="section-eyebrow">
     <div class="eyebrow-line"></div>
@@ -167,57 +150,49 @@
 
   <div class="contact-wrap">
     <div>
-      <h2 class="contact-heading reveal">Let's make something <em>worth looking at.</em></h2>
+      <h2 class="contact-heading reveal">Ready to build a <em>better world — together.</em></h2>
       <p class="contact-text reveal">
-        Whether it's a research collaboration, a content project, a photography commission,
-        or just a conversation — I'd love to hear from you.
+        I am eager to bring my proactive attitude, content creation skills, and passion for the international student experience to the Faculty of Agriculture and Forestry. Let's discuss how my background aligns with your vision for the new master's programme.
       </p>
-      <div class="contact-links" id="contact-links"><!-- filled by JS --></div>
+      <div class="contact-links" id="contact-links"></div>
     </div>
 
     <div class="contact-cards">
-      <!-- CV card -->
       <div class="c-card reveal" id="cv-card">
         <div class="c-card-title">Download CV</div>
-        <p>Full academic and professional CV — research, creative, and technical experience.</p>
+        <p>Comprehensive overview of my digital marketing, academic, and event organization experience.</p>
         <a href="#" class="btn-warm" target="_blank" style="display:none; font-size:0.8rem; padding:0.7rem 1.4rem;">
           Download PDF ↗
         </a>
-        <p style="font-size:0.78rem; color:var(--text-light); font-style:italic;">
-          Add your CV link in <strong>js/content.js</strong> → cvPdfLink
-        </p>
       </div>
 
-      <!-- Location card -->
       <div class="c-card reveal">
         <div class="c-card-title">Based in</div>
         <p>
           Väinö Auerin katu 1, 00560 Helsinki, Finland<br>
-          Available for remote collaboration worldwide.
+          University of Helsinki Viikki Campus.
         </p>
         <div class="skill-tags" style="margin-top:0.5rem;">
-          <span class="tag">Photography commissions</span>
-          <span class="tag">Remote content work</span>
-          <span class="tag">Research collaboration</span>
+          <span class="tag">Student Marketing</span>
+          <span class="tag">Event Planning</span>
+          <span class="tag">Science Communications</span>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ── FOOTER ─────────────────────────────────────── -->
 <footer>
   <span class="footer-logo" id="footer-name">Md Rifath Ahamed</span>
   <div class="footer-links">
     <a href="#about">About</a>
-    <a href="#portfolio">Portfolio</a>
-    <a href="#research">Research</a>
+    <a href="#portfolio">Content</a>
+    <a href="#research">Academics</a>
     <a href="#contact">Contact</a>
   </div>
-  <span class="footer-copy">© 2025 · Helsinki · All rights reserved</span>
+  <span class="footer-copy">© 2026 · HelsinkiUniCareers · All rights reserved</span>
 </footer>
 
-<!-- ── LIGHTBOX ───────────────────────────────────── -->
 <div class="lightbox" id="lightbox">
   <div class="lightbox-inner">
     <button class="lightbox-close" id="lb-close">✕</button>
