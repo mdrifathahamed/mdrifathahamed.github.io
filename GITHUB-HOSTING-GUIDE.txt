@@ -1,0 +1,247 @@
+# 🌐 HOW TO PUT YOUR PORTFOLIO ONLINE — STEP BY STEP GUIDE
+# For: Md Rifath Ahamed's Portfolio
+# Hosting: GitHub Pages (free, permanent, professional URL)
+# ============================================================
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PART 1 — YOUR FILE STRUCTURE (what to upload)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Your portfolio folder looks like this:
+
+  rifath-portfolio/
+  ├── index.html          ← main page (don't rename this)
+  ├── css/
+  │   └── style.css       ← all the visual styling
+  ├── js/
+  │   ├── content.js      ← ★ YOUR EDITABLE CONTENT (edit this!)
+  │   └── app.js          ← page builder (don't edit)
+  └── images/             ← put your photos/thumbnails here
+      └── (your photos)
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PART 2 — CREATE YOUR GITHUB ACCOUNT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Go to: https://github.com
+2. Click "Sign up" (top right)
+3. Enter:
+   - Username: something like  rifathahamed  or  mdrifathahamed
+     ⚠️ This becomes part of your URL, so pick something clean.
+   - Email: your personal email (NOT your helsinki.fi one)
+   - Password: strong password
+4. Complete the verification and confirm your email.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PART 3 — CREATE A REPOSITORY (your website's home)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. After logging in, click the green "New" button (top left)
+   OR go to: https://github.com/new
+
+2. Fill in:
+   - Repository name: EXACTLY type this →   rifathahamed.github.io
+     (replace "rifathahamed" with YOUR GitHub username)
+     Example: if your username is  mdrifath  → name it  mdrifath.github.io
+   
+   ⚠️ IMPORTANT: The repo name MUST match your username exactly.
+      This special name tells GitHub to make it a website.
+
+   - Description: "My personal portfolio"
+   - Set to: ✅ Public
+   - Do NOT tick "Add a README"
+
+3. Click green "Create repository" button.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PART 4 — UPLOAD YOUR FILES (no coding needed)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+METHOD A — DRAG & DROP (easiest, recommended):
+
+1. After creating the repo, you'll see an empty page.
+   Click "uploading an existing file" (it's a link in the text).
+
+2. Open your rifath-portfolio folder on your computer.
+   Select ALL files inside it (Ctrl+A or Cmd+A).
+   Drag them all into the GitHub page.
+
+   ⚠️ IMPORTANT: You need to upload the CONTENTS of the folder,
+   not the folder itself. Open the folder first, then select all.
+
+3. You should see these uploading:
+   ✓ index.html
+   ✓ css/style.css
+   ✓ js/content.js
+   ✓ js/app.js
+   ✓ images/ (folder, even if empty)
+
+4. Scroll down. Under "Commit changes":
+   - In the first box type: "Initial portfolio upload"
+   - Leave everything else as is
+5. Click green "Commit changes" button.
+
+
+METHOD B — GitHub Desktop app (easier for future updates):
+
+1. Download GitHub Desktop: https://desktop.github.com
+2. Sign in with your GitHub account
+3. Click "Clone a repository" → find your new repo → Clone
+4. It opens a folder on your computer
+5. Copy your rifath-portfolio files into that folder
+6. In the app, type a summary like "Add portfolio files"
+7. Click "Commit to main" → then "Push origin"
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PART 5 — TURN ON GITHUB PAGES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Go to your repository page on GitHub
+2. Click "Settings" tab (gear icon, top of the page)
+3. Scroll down the left sidebar → click "Pages"
+4. Under "Branch": 
+   - Click the dropdown that says "None"
+   - Select "main"
+   - Leave the folder as "/ (root)"
+5. Click "Save"
+
+⏳ Wait 1–3 minutes.
+
+6. Refresh the Settings → Pages page.
+   You'll see a green box saying:
+   "Your site is live at https://rifathahamed.github.io ✓"
+
+7. Click that link → your portfolio is live! 🎉
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PART 6 — HOW TO ADD YOUR PHOTOS & VIDEOS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ADDING PHOTOS:
+--------------
+1. Put your photo file (e.g. street-photo.jpg) in the /images/ folder
+2. Open js/content.js
+3. Find the "portfolio" array
+4. Change a placeholder item to:
+   {
+     type: "photo",
+     title: "Dhaka Street Life",
+     category: "photography",
+     src: "images/street-photo.jpg",
+   }
+5. Save and re-upload js/content.js + the image to GitHub
+
+ADDING VIDEOS (YouTube/Vimeo):
+-------------------------------
+1. Upload your video to YouTube (unlisted is fine)
+2. Copy the video URL
+3. In content.js, add:
+   {
+     type: "video",
+     title: "My Editing Reel",
+     category: "video",
+     src: "images/reel-thumb.jpg",   ← a thumbnail image
+     videoUrl: "https://youtube.com/watch?v=XXXXX",
+   }
+
+ADDING YOUR GOOGLE DRIVE FOLDER:
+---------------------------------
+1. Go to your Google Drive folder
+2. Right-click → Share → "Anyone with the link can view"
+3. Copy the link
+4. In content.js, paste it in: googleDrivePortfolio: "PASTE_LINK_HERE"
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PART 7 — ADDING YOUR PROFILE PHOTO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Put your photo in the images/ folder. Name it  profile.jpg
+2. Open js/content.js
+3. Find this line:
+     profilePhoto: "",
+4. Change it to:
+     profilePhoto: "images/profile.jpg",
+5. Save and re-upload both files to GitHub.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PART 8 — HOW TO UPDATE THE WEBSITE LATER
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ANY TIME you want to change something:
+
+1. Edit js/content.js on your computer (Notepad, VS Code, any text editor)
+2. Go to github.com → your repository
+3. Click on the file you changed (e.g. js/content.js)
+4. Click the pencil icon ✏️ (Edit this file)
+5. Paste your new content
+6. Click "Commit changes"
+7. Your website updates automatically in ~1 minute!
+
+OR use GitHub Desktop app (Method B above) for drag-and-drop updates.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PART 9 — THINGS YOU CAN EASILY EDIT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Everything in js/content.js is plain English. You can change:
+
+  ✏️  Your name, tagline, bio paragraphs
+  ✏️  Your profile photo
+  ✏️  Your contact email, phone, LinkedIn, Facebook links
+  ✏️  Your CV download link
+  ✏️  Your Google Drive portfolio link
+  ✏️  Hero heading & description
+  ✏️  Stats on your photo card (years, clients, etc.)
+  ✏️  Skills listed under About
+  ✏️  Portfolio items (add/remove photos, videos, Drive links)
+  ✏️  Research projects
+  ✏️  Awards
+  ✏️  Experience timeline (both tracks)
+
+To change colours or fonts → open css/style.css
+Look for the :root { } section at the top — all colours are there.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PART 10 — YOUR FINAL URL
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Your live website will be at:
+👉  https://[yourusername].github.io
+
+Example: https://rifathahamed.github.io
+
+This is the link you:
+  ✓ Put on your CV
+  ✓ Put on your LinkedIn profile
+  ✓ Add to your cover letter
+  ✓ Share with potential clients
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+NEED HELP?
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+If something looks wrong or breaks:
+- GitHub Pages status: https://www.githubstatus.com
+- Email: rifath.ahamed@helsinki.fi (yourself, for reminders)
+- GitHub Docs: https://docs.github.com/en/pages
+
+Common issue: if the page shows but CSS/images are missing,
+make sure the folder structure is exactly right:
+  index.html (not inside a subfolder!)
+  css/style.css
+  js/content.js
+  js/app.js
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DONE! Your portfolio is live. 🌿
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
