@@ -239,7 +239,7 @@ const SITE = {
       title:    "Social Media Video Production",
       category: "video",
       src:      "images/video-social-thumb.jpg",
-      videoUrl: "https://youtube.com/watch?v=PASTE_YOUR_VIDEO_ID_HERE",
+      videoUrl: "https://drive.google.com/file/d/1fOLfCg8TJ_9vv8Q8rtYLnnBkxrzBzeNc/view?usp=drive_link",
     },
 
     {
