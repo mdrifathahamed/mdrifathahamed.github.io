@@ -184,7 +184,7 @@ const SITE = {
       type:     "photo",
       title:    "SBMUN 2022 — Director of Photography",
       category: "photography",
-      src:      "images/photo-event-02.jpg",
+      src:"images/photo-event-02.jpg",
     },
 
     // Rename a travel photo to  photo-travel-01.jpg
@@ -192,7 +192,7 @@ const SITE = {
       type:     "photo",
       title:    "Travel Photography",
       category: "photography",
-      src:      "images/photo-travel-01.jpg",
+      src:"images/photo-travel-01.jpg",
     },
 
     // Rename a Helsinki/Finland photo to  photo-travel-02.jpg
@@ -259,14 +259,14 @@ const SITE = {
       type:     "photo",
       title:    "Instagram Campaign — Client 1",
       category: "social",
-      src:      "images/social-instagram-01.jpg",
+      src:"images/social-instagram-01.jpg",
     },
 
     {
       type:     "photo",
       title:    "Instagram Campaign — Client 2",
       category: "social",
-      src:      "images/social-instagram-02.jpg",
+      src:"images/social-instagram-02.jpg",
     },
 
     {
