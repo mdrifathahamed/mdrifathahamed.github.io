@@ -14,19 +14,16 @@ const SITE = {
   heroParagraph: "I'm a master's student in Ecology & Evolutionary Biology at the University of Helsinki — and a photographer, videographer, and content strategist with nine years of practice. I turn complex ideas into images, videos, and stories that actually land.",
 
   // ── YOUR PHOTO ───────────────────────────────────────────
-  // Option A: paste a direct image URL (Google Drive, Imgur, etc.)
-  // Option B: put a photo file called "profile.jpg" inside the /images/ folder
-  //           and set this to: "images/profile.jpg"
-  profilePhoto: "images/hero-rifath.jpg", // leave empty to show initials placeholder
+  profilePhoto: "images/hero-rifath.jpg", 
 
   // ── CONTACT & SOCIAL ─────────────────────────────────────
   email: "rifath.ahamed@helsinki.fi",
   phone: "(+358) 468 813 957",
   linkedin: "https://www.linkedin.com/in/md-rifath-ahamed-842795387/",
-  facebookProfile: "https://www.facebook.com/YOUR_PERSONAL_PROFILE", // update this
-  facebookPage: "https://www.facebook.com/YOUR_CONTENT_PAGE",       // update this
-  cvPdfLink: "",   // paste a Google Drive PDF share link, or "files/rifath_cv.pdf"
-  googleDrivePortfolio: "", // your main portfolio Drive folder link
+  facebookProfile: "https://www.facebook.com/YOUR_PERSONAL_PROFILE", 
+  facebookPage: "https://www.facebook.com/YOUR_CONTENT_PAGE",       
+  cvPdfLink: "",   
+  googleDrivePortfolio: "", 
 
   // ── STATS (hero numbers) ──────────────────────────────────
   stats: [
@@ -62,16 +59,12 @@ const SITE = {
   ],
 
   // ── PORTFOLIO ITEMS ───────────────────────────────────────
-  // To add a photo:  { type:"photo", title:"...", category:"photography", src:"images/mywork.jpg" }
-  // To add a video:  { type:"video", title:"...", category:"video", src:"images/thumb.jpg", videoUrl:"https://youtube.com/..." }
-  // To add a Drive:  { type:"drive", title:"...", category:"social", driveLink:"https://drive.google.com/..." }
-  // Categories: "photography" | "video" | "social" | "science"
   portfolio: [
     {
-      type: "placeholder",
-      title: "Street & Travel Photography",
+      type: "photo",
+      title: "Content Strategy & Visuals",
       category: "photography",
-      hint: "Add src:\"images/photo1.jpg\" here",
+      src: "images/hero-rifath.jpg",
     },
     {
       type: "placeholder",
@@ -111,13 +104,13 @@ const SITE = {
       type: "Master's Thesis · Ongoing",
       title: "PhyloRug — R Package for Phylogenetic Visualisation",
       org: "University of Helsinki · Tarasov Lab, LUOMUS · 2025–present",
-      desc: "Developing an R package that formalises a "rug plot" method for comparing node support values across multiple phylogenetic analyses simultaneously. Based on dung beetle (Scarabaeinae + Aphodiinae) phylogenomic data. Targeting CRAN publication and <em>Methods in Ecology & Evolution</em>.",
+      desc: "Developing an R package that formalises a 'rug plot' method for comparing node support values across multiple phylogenetic analyses simultaneously. Based on dung beetle (Scarabaeinae + Aphodiinae) phylogenomic data. Targeting CRAN publication and Methods in Ecology & Evolution.",
     },
     {
       type: "Research Project · Ongoing",
-      title: "Cichlid Pigmentation Genetics — <em>pax7</em> & the Blotched Phenotype",
+      title: "Cichlid Pigmentation Genetics — pax7 & the Blotched Phenotype",
       org: "University of Helsinki · Tarasov Lab · 2025–present",
-      desc: "Investigating whether the transcription factor <em>pax7</em> drives the blotched pigmentation phenotype in <em>Haplochromis chilotes</em> cichlids from Ruti Island, Lake Victoria. Combines melanophore biology, genetics, and evolutionary theory.",
+      desc: "Investigating whether the transcription factor pax7 drives the blotched pigmentation phenotype in Haplochromis chilotes cichlids from Ruti Island, Lake Victoria. Combines melanophore biology, genetics, and evolutionary theory.",
     },
     {
       type: "Research Assistant · 2023–present",
