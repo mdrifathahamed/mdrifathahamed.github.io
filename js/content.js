@@ -256,6 +256,13 @@ const SITE = {
     // Save them as the filenames below and drop them in images/.
 
     {
+      type:     "video",
+      title:    "A  day of a Ecology and Evolutionary  Biology Student",
+      category: "video",
+      src:      "images/video-documentary-thumb.jpg",
+      videoUrl: "https://youtube.com/watch?v=PASTE_YOUR_VIDEO_ID_HERE",
+    },
+    {
       type:     "photo",
       title:    "Instagram Campaign — Client 1",
       category: "social",
@@ -267,13 +274,6 @@ const SITE = {
       title:    "Instagram Campaign — Client 2",
       category: "social",
       src:"images/social-instagram-02.jpg",
-    },
-
-    {
-      type:     "photo",
-      title:    "Content Carousel — Brand Strategy",
-      category: "social",
-      src:      "images/social-carousel-01.jpg",
     },
 
     // If you'd rather link to a Google Drive folder of social work,
