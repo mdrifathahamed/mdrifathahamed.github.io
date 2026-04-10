@@ -190,4 +190,11 @@ const SITE = {
     },
   ],
 
-};
+};// ── ABOUT TEXT ───────────────────────────────────────────
+  about: [
+    "My path hasn't been a straight line. I transitioned from a traditional fisheries background in Bangladesh to computational evolutionary biology at the University of Helsinki. I didn't just move countries; I shifted disciplines. Today, my research at the Finnish Museum of Natural History involves coding R packages to visualize phylogenomic uncertainty and analyzing cichlid genetics.",
+    
+    "But I am not just an ecologist confined to a lab. For over nine years, I have worked as a photographer, videographer, and content strategist. I currently manage end-to-end digital production for international clients. I know how to handle complex academic data, but more importantly, I know how to translate it into visual stories that people actually care about.",
+    
+    "I believe in execution and community. When I arrived in Finland in 2025, I knew that surviving the first winter required more than just warm coats—it required connection. I began organizing potlucks and events to pull international students out of isolation. Whether I am coordinating a national photography exhibition, building DIY filtration systems for planted aquariums, or pushing myself to summit Mardi Himal at 14,450 feet, I tackle challenges directly, pragmatically, and without sugar-coating the effort it takes to succeed."
+  ],
