@@ -199,7 +199,7 @@ const SITE = {
       type:     "photo",
       title:    "Helsinki — Winter Light",
       category: "photography",
-      src:      "images/photo-travel-02.jpg",
+      src:"images/photo-travel-02.jpg",
     },
 
     // Rename a nature/field photo to  photo-nature-01.jpg
