@@ -176,13 +176,13 @@ const SITE = {
       type:     "photo",
       title:    "National Photography Exhibition 2022",
       category: "photography",
-      src:"images/photo-event-01.jpg",
+      src:"images/photo-event-01.jpeg",
     },
 
     // Rename an SBMUN photo to  photo-event-02.jpg
     {
       type:     "photo",
-      title:    "SBMUN 2022 — Director of Photography",
+      title:    "Mardi Himal Base Camp,Hymalayas",
       category: "photography",
       src:"images/photo-event-02.jpg",
     },
