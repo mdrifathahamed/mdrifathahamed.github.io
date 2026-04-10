@@ -159,7 +159,7 @@ const SITE = {
       type:     "photo",
       title:    "Street & Urban Photography",
       category: "photography",
-      src:      "images/photo-street-01.jpg",
+      src:"images/photo-street-01.jpg",
     },
 
     // Rename your second street photo to  photo-street-02.jpg
