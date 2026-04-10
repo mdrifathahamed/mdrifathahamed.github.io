@@ -39,7 +39,7 @@ const SITE = {
   //  If you leave it as ""  →  your initials show as a placeholder.
   // ════════════════════════════════════════════════════════════════
 
-  profilePhoto: "",
+  profilePhoto: "images/profile.jpg",
   //             ^ change to "images/profile.jpg" once you add the file
 
 
