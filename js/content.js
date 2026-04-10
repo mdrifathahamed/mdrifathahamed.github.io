@@ -230,7 +230,7 @@ const SITE = {
       type:     "video",
       title:    "Video Editing Reel — Canadian Clients",
       category: "video",
-      src:      "images/video-reel-thumb.jpg",      // ← thumbnail screenshot
+      src:      "images/video-reel-thumb.png",      // ← thumbnail screenshot
       videoUrl: "https://drive.google.com/file/d/1JrOItPjTV8xZJtn-59BuNiqRvV0ooleA/view?usp=drive_link",
     },
 
