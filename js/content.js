@@ -228,7 +228,7 @@ const SITE = {
 
     {
       type:     "video",
-      title:    "Video Editing Reel — Canadian Clients",
+      title:    "Video Editing Reel for Steelhorse Automotives",
       category: "video",
       src:      "images/video-reel-thumb.png",      // ← thumbnail screenshot
       videoUrl: "https://drive.google.com/file/d/1JrOItPjTV8xZJtn-59BuNiqRvV0ooleA/view?usp=drive_link",
@@ -236,7 +236,7 @@ const SITE = {
 
     {
       type:     "video",
-      title:    "Social Media Video Production",
+      title:    "Social Media Video for CKC Automotives",
       category: "video",
       src:      "images/video-social-thumb.jpg",
       videoUrl: "https://drive.google.com/file/d/1fOLfCg8TJ_9vv8Q8rtYLnnBkxrzBzeNc/view?usp=drive_link",
