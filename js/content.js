@@ -96,8 +96,8 @@ const SITE = {
   // ════════════════════════════════════════════════════════════════
 
   about: [
-    "I've spent nine years as a photographer and videographer — street, event, travel, documentary. Right now I work remotely as a <strong>video editor and content strategist</strong> for three Canadian companies, managing their social media presence end-to-end.",
-    "Alongside that, I'm doing a master's in <strong>Ecology & Evolutionary Biology</strong> at the University of Helsinki, working on phylogenomics and cichlid pigmentation genetics under Dr. Sergei Tarasov at LUOMUS. I moved here from Bangladesh in 2025 — so I know first-hand what it feels like to navigate a new university, a new culture, and a new community.",
+    "I've spent nine years as a photographer and videographer including street, event, travel, documentary. Right now I work remotely as a <strong>video editor and content strategist</strong> for a for a Canadian Business consultation Company, SYZ International, managing their social media accounts end to end strategy, production, editing, and results review.",
+    "Alongside that, I'm doing a master's in <strong>Ecology & Evolutionary Biology</strong> at the University of Helsinki, working on phylogenomics under Dr. Sergei Tarasov at LUOMUS. I moved here from Bangladesh in 2025 .So I know first-hand what it feels like to navigate a new university, a new culture, and a new community.",
     "That experience shapes how I communicate: with patience, with warmth, and with an eye for what actually matters to a new audience.",
   ],
 
