@@ -52,10 +52,11 @@ const SITE = {
   email:   "rifath.ahamed@helsinki.fi",
   phone:   "(+358) 468 813 957",
   linkedin: "https://www.linkedin.com/in/md-rifath-ahamed-842795387/",
+  Instragram:"https://www.instagram.com/rifath_ahamed_/",
 
   // Your Facebook content/portfolio PAGE (the public page, not personal profile).
   // Leave as "" to hide it.
-  facebookPage: "",
+  facebookPage:"https://www.facebook.com/profile.php?id=100089186311123",
   // facebookPage: "https://www.facebook.com/YOUR_PAGE_NAME",
 
   // Your Google Drive portfolio folder.
@@ -175,7 +176,7 @@ const SITE = {
       type:     "photo",
       title:    "National Photography Exhibition 2022",
       category: "photography",
-      src:      "images/photo-event-01.jpg",
+      src:"images/photo-event-01.jpg",
     },
 
     // Rename an SBMUN photo to  photo-event-02.jpg
