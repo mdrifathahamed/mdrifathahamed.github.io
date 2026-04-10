@@ -167,7 +167,7 @@ const SITE = {
       type:     "photo",
       title:    "Street Life — Dhaka",
       category: "photography",
-      src:      "images/photo-street-02.jpg",
+      src:"images/photo-street-02.jpg",
     },
 
     // Rename an exhibition/event photo to  photo-event-01.jpg
