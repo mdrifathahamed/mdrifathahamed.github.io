@@ -214,9 +214,9 @@ const SITE = {
     // Rename a portrait to  photo-portrait-01.jpg
     {
       type:     "photo",
-      title:    "Portrait Photography",
+      title:    "Abstract Photography",
       category: "photography",
-      src:      "images/photo-portrait-01.jpg",
+      src:"images/photo-portrait-01.jpg",
     },
 
 
