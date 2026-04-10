@@ -17,7 +17,7 @@ const SITE = {
   // Option A: paste a direct image URL (Google Drive, Imgur, etc.)
   // Option B: put a photo file called "profile.jpg" inside the /images/ folder
   //           and set this to: "images/profile.jpg"
-  profilePhoto: "", // leave empty to show initials placeholder
+  profilePhoto: "images/hero-rifath.jpg", // leave empty to show initials placeholder
 
   // ── CONTACT & SOCIAL ─────────────────────────────────────
   email: "rifath.ahamed@helsinki.fi",
