@@ -326,12 +326,6 @@ const SITE = {
       desc:  "Developing an R package that formalises a \"rug plot\" method for comparing node support values across multiple phylogenetic analyses simultaneously. Based on dung beetle (Scarabaeinae + Aphodiinae) phylogenomic data. Targeting CRAN publication and <em>Methods in Ecology & Evolution</em>.",
     },
     {
-      type:  "Research Project · Ongoing",
-      title: "Cichlid Pigmentation Genetics — <em>pax7</em> & the Blotched Phenotype",
-      org:   "University of Helsinki · Tarasov Lab · 2025–present",
-      desc:  "Investigating whether the transcription factor <em>pax7</em> drives the blotched pigmentation phenotype in <em>Haplochromis chilotes</em> cichlids from Ruti Island, Lake Victoria. Combines melanophore biology, genetics, and evolutionary theory.",
-    },
-    {
       type:  "Research Assistant · 2023–present",
       title: "Ocean Country Partnership Programme (OCPP)",
       org:   "UK Blue Planet Fund · Multinational Collaboration",
@@ -408,7 +402,7 @@ const SITE = {
           date: "2025 – Present",
           role: "MSc Student & Research Assistant",
           org:  "University of Helsinki · Tarasov Lab, LUOMUS",
-          desc: "Phylogenomics, R package development, and cichlid genetics research under Dr. Sergei Tarasov at the Finnish Museum of Natural History.",
+          desc: "Phylogenomics, R package development, and phylogenomic method development research under Dr. Sergei Tarasov at the Finnish Museum of Natural History.",
         },
         {
           date: "2023 – Present",
