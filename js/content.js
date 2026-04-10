@@ -207,7 +207,7 @@ const SITE = {
       type:     "photo",
       title:    "Nature & Field Photography",
       category: "photography",
-      src:      "images/photo-nature-01.jpg",
+      src:"images/photo-nature-01.jpg",
     },
 
     // Rename a portrait to  photo-portrait-01.jpg
