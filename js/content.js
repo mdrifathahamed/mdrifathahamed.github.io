@@ -244,10 +244,10 @@ const SITE = {
 
     {
       type:     "video",
-      title:    "Short Documentary — Field Research",
+      title:    "Field Trip to Evo ",
       category: "video",
       src:      "images/video-documentary-thumb.jpg",
-      videoUrl: "https://youtube.com/watch?v=PASTE_YOUR_VIDEO_ID_HERE",
+      videoUrl: "https://drive.google.com/file/d/1qiERHg4Ngvrm7OR3d3KKVnoRf_CL3Jbh/view?usp=drive_link",
     },
 
 
@@ -259,8 +259,8 @@ const SITE = {
       type:     "video",
       title:    "A  day of a Ecology and Evolutionary  Biology Student",
       category: "video",
-      src:      "images/video-documentary-thumb.jpg",
-      videoUrl: "https://youtube.com/watch?v=PASTE_YOUR_VIDEO_ID_HERE",
+      src:      "images/video-documentary-thumb1.jpg",
+      videoUrl: "https://drive.google.com/file/d/1Ovo_4wsfe3qlz6hCWshy6oGp3YeaiSbB/view?usp=drive_link",
     },
     {
       type:     "photo",
