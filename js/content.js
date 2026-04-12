@@ -288,7 +288,13 @@ const SITE = {
 
     // ─── SCIENCE COMMUNICATION ────────────────────────────────────
     // Photos of posters, fieldwork, lab work, presentations, etc.
-
+{
+      type:     "video",
+      title:    "An Educational content made for an scholarship Application",
+      category: "video",
+      src:      "images/video-application-thumb.png",      // ← thumbnail screenshot
+      videoUrl: "https://drive.google.com/file/d/1xYtfWvBFXLK82Vf59GzKUPY4MwuWea_2/view?usp=sharing",
+    },
     {
       type:     "photo",
       title:    "Research Poster — PhyloRug Package",
