@@ -299,7 +299,7 @@ const SITE = {
 
     {
       type:     "photo",
-      title:    "Field Research — Coastal Study",
+      title:    "Field Research",
       category: "science",
       src:      "images/science-fieldwork-01.jpg",
     },
