@@ -294,7 +294,7 @@ const SITE = {
       type:     "photo",
       title:    "Research Poster — PhyloRug Package",
       category: "science",
-      src:      "images/science-poster-01.png",
+      src:"images/science-poster-01.png",
     },
 
     {
