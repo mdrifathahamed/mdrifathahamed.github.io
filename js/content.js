@@ -306,7 +306,7 @@ const SITE = {
 
     {
       type:     "photo",
-      title:    "Laboratory Work — Fish Nutrition  Lab BAU",
+      title:    "Laboratory Work, Fish Nutrition  Lab BAU",
       category: "science",
       src:      "images/science-lab-01.jpg",
     },
