@@ -264,7 +264,7 @@ const SITE = {
     },
     {
       type:     "photo",
-      title:    "Instagram Campaign — Client 1",
+      title:    "Instagram",
       category: "social",
       src:"images/social-instagram-01.jpg",
     },
@@ -306,9 +306,9 @@ const SITE = {
 
     {
       type:     "photo",
-      title:"Laboratory Work, Fish Nutrition  Lab BAU",
+      title: "Laboratory Work, Fish Nutrition  Lab BAU",
       category: "science",
-      src:      "images/science-lab-01.jpg",
+      src:    "images/science-lab-01.jpg",
     },
 
   ],
