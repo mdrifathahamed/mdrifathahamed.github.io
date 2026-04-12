@@ -271,7 +271,7 @@ const SITE = {
 
     {
       type:     "video",
-      title:    "An Educational content made for an scholarship Application",
+      title:    "An content made for an scholarship Application",
       category: "video",
       src:      "images/imagesvideo-application-thumb.png",      // ← thumbnail screenshot
       videoUrl: "https://drive.google.com/file/d/1xYtfWvBFXLK82Vf59GzKUPY4MwuWea_2/view?usp=sharing",
